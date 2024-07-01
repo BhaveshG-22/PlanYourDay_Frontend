@@ -14,8 +14,7 @@ const Page2 = () => {
   return (
     <div className="p-10">
       <div className="flex flex-col float-end">
-        <div className="text-2xl"> 1</div>
-        <div className="text-2xl"> Past Tense</div>
+         <div className="text-2xl"> Past Tense</div>
         <div className="text-2xl">Present Tense</div>
         <div className="text-2xl">Future Tense</div>
         <div className="text-lg">Simple</div>

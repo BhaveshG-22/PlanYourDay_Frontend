@@ -3,14 +3,9 @@ import { Link, useParams } from "react-router-dom";
 
 const ConversationTemplate_Page10 = () => {
   return (
-    <div>
-      <div>conversationTemplate</div>
-      <Link
-        //   to={`/sentence-structure/planYourDay/${sceneId}/present-perfect`}>
-        to={`/11`}
-      >
-        Let's begin now with your task
-      </Link>
+    <div className="flex flex-col jhustify-evenly items-center text-3xl min-w-screen min-h-screen p-16">
+      <div> ---conversationTemplate goes here---</div>
+      <Link className="mb-0 mt-auto" to={`/11`}>Let's begin now with your task</Link>
     </div>
   );
 };

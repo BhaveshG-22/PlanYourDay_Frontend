@@ -15,7 +15,7 @@ const Page11 = () => {
   return (
     <div className="p-10">
       <div className="flex flex-col float-end">
-        <div className="text-2xl"> {characterId}</div>
+        {/* <div className="text-2xl"> {characterId}</div> */}
         <div className="text-2xl"> Past Tenseee</div>
         <div className="text-2xl">Present Tense</div>
         <div className="text-lg">-Perfect</div>
